@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.menuNav {
+  background-color: red;
+}
+
+.seccionPrincipal {
+  letter-spacing: 2px;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.seccionPrincipal .seccionPrincipal_texto {
+  padding: 2rem;
+  background-color: black;
+  color: white;
+}
+
+.seccionPrincipal .seccionPrincipal_lista {
+  list-style-position: inside;
+}
+
+footer {
+  background-color: thistle;
+}
+
+/*-------Contacto--------*/
+.consulta {
+  padding: 2rem;
+}
+
+.consulta .consulta_prueba {
+  color: red;
+  border: solid;
+  width: 266.66667px;
+}
+
+.consulta .consulta_formulario {
+  grid-area: consulta_formulario;
+  border: solid;
+  background-color: #9bdaff;
+  width: 400px;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
